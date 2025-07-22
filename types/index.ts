@@ -6,7 +6,7 @@ export interface RepositoryResult {
   topics: string[];
 
   // Counts of various things
-  projectsCount: number;
+  // projectsCount: number;
   projectsV2Count: number;
   discussionsCount: number;
   forksCount: number;
