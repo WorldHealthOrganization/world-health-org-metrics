@@ -65,7 +65,7 @@ jobs:
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
       - name: Restore cache
-        uses: actions/cache@734d9cb93d6f7610c2400b0f789eaa6f9813e271 # v3
+        uses: actions/cache@v4
         with:
           path: |
             "${{ github.workspace }}/app/.next/cache"
