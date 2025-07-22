@@ -31,9 +31,6 @@ export const addRepositoriesToResult: Fetcher = async (
           hasIssuesEnabled
           hasProjectsEnabled
           hasDiscussionsEnabled
-          // projects {
-          //   totalCount
-          // } 
           projectsV2 {
             totalCount
           }
