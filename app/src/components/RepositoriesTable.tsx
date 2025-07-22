@@ -393,7 +393,8 @@ const getComparator = (sortColumn: keyof RepositoryResult): Comparator => {
     case 'mergedPullRequestsCount':
     case 'openIssuesCount':
     case 'openPullRequestsCount':
-    case 'projectsCount':
+    // case 'projectsCount':
+    case 'projectsV2Count':
     case 'watchersCount':
     case 'openIssuesMedianAge':
     case 'openIssuesAverageAge':
